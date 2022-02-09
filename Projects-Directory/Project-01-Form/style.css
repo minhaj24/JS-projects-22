@@ -113,3 +113,23 @@ a {
 .nav {
     display: block;
 }
+
+button.home {
+    cursor: pointer;
+    background-color: lightgray;
+    border: 2px solid lightgray;
+    color: white;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    display: block;
+}
