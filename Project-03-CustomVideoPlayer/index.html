@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Custom Video Player</title>
+    <script src="https://kit.fontawesome.com/d2a6f3a2f1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Custom Video Player</h1>
+
+    <!-- Source gives the location and poster gives the thumbnail-->
+    <video src="./videos/DrStrange.mp4" id="video" class="screen" poster="./images/drStrange2.jpg" controls></video>
+    
+    <!--Adding custom controls-->
+    <div class="controls">
+        <!--play button font awsome icon-->
+        <button id="play">
+            <i class="fa fa-play fa-2x"></i>
+        </button>
+        <!--font awsome stop icon-->
+        <button id="stop">
+            <i class="fa fa-stop fa-2x"></i>
+        </button>
+        <!--progress bar-->
+        <input type="range" class="progress" id="progress" min="0" max="100" step="0.1" value="0" />
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
