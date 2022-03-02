@@ -36,16 +36,36 @@ body {
     border-bottom-right-radius: 10px;
 }
 
+.controls .btn{
+    border: 0;
+    background: transparent;
+    color: black;
+    cursor: pointer ;
+}
+
+.controls .fa-play {
+    color: green;
+}
+
+.controls .fa-stop {
+    color: orangered;
+}
+
+.controls .fa-pause {
+    color: white;
+}
+
+.controls .timestamp {
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
 @media(max-width: 800px) {
     .screen, .controls {
         width: 90%;
     }
 
-.controls .btn{
-    border: 0;
-    background: black;
-    color: black;
-    cursor: pointer ;
-}
 
 }
